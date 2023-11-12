@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;   
+}
+
+body {
+    margin: 100px 45px 110px 60px;
+    min-height: 100vh;
+}
+
+/*p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.tab {
+    margin-left: 50px;
+}
+
+div:not(#example) {
+
+color: red;
+
+}/*
