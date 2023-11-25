@@ -1,5 +1,103 @@
 * {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     padding: 0;
 }
+
+body {
+    background-image: url("../../src/assets/img/seamless\ wood.jpg");
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#card--grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 4(25%);
+    padding: 20px;
+
+}
+
+span {
+    min-height: 45px;
+    min-width: 70px;
+    display: flex;
+    align-items: center;
+}
+
+span.colores { 
+    background-color: green;
+    grid-column: span 6;
+    font-weight: bold;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+span.black { background-color: black}
+span.teal { background-color: teal}
+span.blue { background-color: blue}
+span.navy { background-color: navy}
+span.lime { background-color: lime}
+span.white { background-color: white}
+span.purple { background-color: purple}
+span.yellow { background-color: yellow}
+span.olive { background-color: olive}
+span.red { background-color: red}
+span.gray { background-color: gray}
+span.fuchsia { background-color: fuchsia}
+span.green 
+{ 
+    background-color: green;
+    grid-column: span 3;
+}
+
+#card--list {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+.card__row {
+    display: flex;
+    column-gap: 10px;
+}
+
+
+p {
+    font-size: 20px;
+}
+
+p.black { color: black}
+p.teal { color: teal}
+p.blue { color: blue}
+p.navy { color: navy}
+p.lime { color: lime}
+p.white { color: white}
+p.purple { color: purple}
+p.yellow { color: yellow}
+p.olive { color: olive}
+p.red { color: red}
+p.marron { color: marron}
+p.gray { color: gray}
+p.fuchsia { color: fuchsia}
+p.green { color: green}
+p.aqua { color: aqua}
+p.silver { color: silver}
